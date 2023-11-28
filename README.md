@@ -67,6 +67,9 @@ The deep learning model exhibited a reasonable predictive capability, yet there 
 - **Exploring Different Model Types:**
   - Trying alternative machine learning models (e.g., random forests, gradient boosting) may yield different results and potentially better performance for this classification problem.
 
+- **Model choice**
+- The selection of a neural network model stems from its exceptional ability to manage complex relationships within data that aren't linearly separable. Neural networks, particularly deep learning architectures, excel in capturing intricate patterns and representations, making them well-suited for tasks involving non-linearities and large volumes of data. Their hierarchical structure enables them to learn intricate features from raw data, which is advantageous in various domains such as image recognition, natural language processing, and speech recognition.
+- However, despite their strengths, alternative models like decision trees, random forests, and support vector machines (SVMs) possess distinct advantages in certain scenarios. Decision trees are easily interpretable and suitable for exploring non-linear relationships in smaller datasets. Random forests, an ensemble of decision trees, can handle high-dimensional data and mitigate overfitting issues while maintaining interpretability to some extent. SVMs are effective in high-dimensional spaces, offering robustness against overfitting and can be powerful when dealing with structured data.
 ---
 
 **Author:** `Mu Li`
