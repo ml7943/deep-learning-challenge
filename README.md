@@ -79,6 +79,8 @@ The deep learning model exhibited a reasonable predictive capability, yet there 
 - Reasons for Selection:
   The Random Forest model is chosen for its strong performance in handling nonlinear relationships and numerous features. In comparison to neural networks, Random Forests typically require less data preprocessing and exhibit better robustness against missing or outlier features. Additionally, Random Forest models offer higher interpretability, making it easier to understand the basis of model predictions.
 
+**In general, we initially preprocessed the data, and despite the fact that the accuracy of our initial model was not notably high, subsequent adjustments resulted in a considerable increase in accuracy.**
+
 ---
 
 **Author:** `Mu Li`
