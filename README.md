@@ -14,7 +14,7 @@ The accuracy of a classification model is the proportion of correctly predicted 
 - **Precision and Recall**
 Precision is the ratio of correctly predicted positive samples to the total predicted positive samples. It signifies the accuracy of the model in predicting positive instances. For instance, for our first model, the precision is 80%, it means that among all predicted positive samples, 80% were actually positive.
 
-Recall, on the other hand, is the ratio of correctly predicted positive samples to the total actual positive samples. It measures the completeness of the model's predictions for positive instances. For example, for our first model, the recall is 75%, it indicates that the model correctly identified 75% of all actual positive samples.
+- Recall, on the other hand, is the ratio of correctly predicted positive samples to the total actual positive samples. It measures the completeness of the model's predictions for positive instances. For example, for our first model, the recall is 75%, it indicates that the model correctly identified 75% of all actual positive samples.
 
 - **Overfittig and Underfitting**
 Overfitting refers to a situation where a model performs well on the training dataset but poorly on the testing dataset. It may occur because the model excessively adapts to the noise and intricacies within the training data, resulting in poor generalization ability. Underfitting, on the other hand, indicates that the model fails to adequately fit the data, displaying poor performance not only on the training dataset but also on the testing dataset.
