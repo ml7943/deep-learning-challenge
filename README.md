@@ -1,5 +1,8 @@
 # deep-learning-challenge
 
+Due to my numpy version being too new and after attempting various methods without success, I am unable to output the results. Moving forward, I will assume that I have obtained the results and proceed with the analysis. 
+<img width="1344" alt="image" src="https://github.com/ml7943/deep-learning-challenge/assets/98677940/204760cb-bfc9-4645-aad5-6bdb2e2f84a9">
+
 ## Analysis Overview
 
 The purpose of this analysis was to utilize a deep learning model (neural network) to predict the success of donation projects by Alphabet Soup, a charitable organization.
