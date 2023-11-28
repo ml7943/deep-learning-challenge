@@ -20,7 +20,7 @@ The purpose of this analysis was to utilize a deep learning model (neural networ
 ### Compiling, Training, and Evaluating the Model
 
 - **Neural Network Model Structure:**
-  - The model comprised two hidden layers with 100 and 50 neurons, respectively, using 'relu' activation to increase nonlinear capabilities. Additionally, a third hidden layer with 40 neurons was added.
+  - The model comprised two hidden layers with 80 and 30 neurons, respectively, using 'relu' activation to increase nonlinear capabilities.
 
 - **Achievement of Target Model Performance:**
   - Different neural network structures and optimizers were experimented with during the model optimization process to enhance performance.
@@ -44,5 +44,4 @@ The deep learning model exhibited a reasonable predictive capability, yet there 
 ---
 
 **Author:** `Mu Li`
-
 **Date:** `11/27/2023`
