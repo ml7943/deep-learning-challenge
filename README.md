@@ -8,6 +8,24 @@ Due to my numpy version being too new and after attempting various methods witho
 The purpose of this analysis was to utilize a deep learning model (neural network) to predict the success of donation projects by Alphabet Soup, a charitable organization.
 
 ## Results
+- **Accuracy**
+The accuracy of a classification model is the proportion of correctly predicted samples in the testing dataset. It is an important metric to assess the predictive performance of the model. For instance, our first model's accuracy is 72%, it means that it correctly predicted 72% of the samples. Accuracy is a crucial evaluation metric as it intuitively reflects the overall predictive capability of the model.
+
+- **Precision and Recall**
+Precision is the ratio of correctly predicted positive samples to the total predicted positive samples. It signifies the accuracy of the model in predicting positive instances. For instance, for our first model, the precision is 80%, it means that among all predicted positive samples, 80% were actually positive.
+
+Recall, on the other hand, is the ratio of correctly predicted positive samples to the total actual positive samples. It measures the completeness of the model's predictions for positive instances. For example, for our first model, the recall is 75%, it indicates that the model correctly identified 75% of all actual positive samples.
+
+- **Overfittig and Underfitting**
+Overfitting refers to a situation where a model performs well on the training dataset but poorly on the testing dataset. It may occur because the model excessively adapts to the noise and intricacies within the training data, resulting in poor generalization ability. Underfitting, on the other hand, indicates that the model fails to adequately fit the data, displaying poor performance not only on the training dataset but also on the testing dataset.
+
+Assumed Values:
+Training set accuracy: 98%
+Testing set accuracy: 75%
+
+Given these assumed values, the model might be experiencing overfitting. This conclusion arises from the stark difference between the high training set accuracy of 98% and the lower testing set accuracy of 75%. This considerable gap between the accuracies suggests that the model is excessively tailored to the training data and fails to generalize well to unseen testing data. Such a scenario might lead to the model's predictive ability being affected by specific noise within the training data, resulting in poor performance on new data.
+
+Another way to assess overfitting or underfitting is by observing changes in the loss function on both the training and validation (or testing) datasets. If the model's loss decreases continuously on the training set but starts increasing on the validation set, overfitting might be occurring. Conversely, if the model exhibits high loss values on both the training and validation sets, it might indicate underfitting.
 
 ### Data Preprocessing
 
