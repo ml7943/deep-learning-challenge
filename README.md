@@ -18,13 +18,10 @@ Precision is the ratio of correctly predicted positive samples to the total pred
 
 - **Overfittig and Underfitting**
 Overfitting refers to a situation where a model performs well on the training dataset but poorly on the testing dataset. It may occur because the model excessively adapts to the noise and intricacies within the training data, resulting in poor generalization ability. Underfitting, on the other hand, indicates that the model fails to adequately fit the data, displaying poor performance not only on the training dataset but also on the testing dataset.
-
 Assumed Values:
 Training set accuracy: 98%
 Testing set accuracy: 75%
-
 Given these assumed values, the model might be experiencing overfitting. This conclusion arises from the stark difference between the high training set accuracy of 98% and the lower testing set accuracy of 75%. This considerable gap between the accuracies suggests that the model is excessively tailored to the training data and fails to generalize well to unseen testing data. Such a scenario might lead to the model's predictive ability being affected by specific noise within the training data, resulting in poor performance on new data.
-
 Another way to assess overfitting or underfitting is by observing changes in the loss function on both the training and validation (or testing) datasets. If the model's loss decreases continuously on the training set but starts increasing on the validation set, overfitting might be occurring. Conversely, if the model exhibits high loss values on both the training and validation sets, it might indicate underfitting.
 
 ### Data Preprocessing
